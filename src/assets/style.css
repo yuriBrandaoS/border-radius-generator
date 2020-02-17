@@ -1,0 +1,101 @@
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+body {
+	background-color: rgb(46, 49, 49);
+}
+
+#app {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+.title h1 {
+	margin: 0 auto;
+	font-weight: 100;
+	font-size: 50pt;
+}
+
+.title h2 {
+	margin: 0 auto;
+	font-weight: 300;
+	font-size: 40pt;
+	color: #636363;
+}
+
+#container {
+	width: 700px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#container .input_wrapper {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+}
+
+#container .input_wrapper input{
+	background: #636363;
+	font-size: 20pt;
+	margin: 0 auto;
+	color: white;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+    border: transparent;
+}
+
+#container .input_wrapper#input_wrapper_tl {
+    top: 2px;
+    left: -115px;
+    text-align: right;
+}
+
+#container .input_wrapper#input_wrapper_tr {
+    top: 2px;
+    right: -115px;
+    text-align: left;
+}
+
+#container .input_wrapper#input_wrapper_br {
+    bottom: -10px;
+    right: -115px;
+    text-align: left;
+}
+
+#container .input_wrapper#input_wrapper_bl {
+    bottom: -10px;
+    left: -115px;
+    text-align: right;
+}
+
+#box {
+	width: 700px;
+	height: 450px;
+	/* padding: 40px 40px 40px 40px; */
+    background-color: #545454;
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#box textarea {
+	
+	border: 2px solid gray;
+	margin: auto;
+}
